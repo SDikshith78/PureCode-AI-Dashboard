@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+--------- Steps Taken to Complete the Task ---------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Understanding Structure: Initially, I meticulously reviewed all components and files to understand the structure comprehensively. With that, I initiated a new React app named "Dashboard" and imported all essential components and files. Despite some CSS files being obscured or removed, I endeavored to replicate the design as closely as possible as provided in the PNG file.
 
-## Available Scripts
+2. Folder Structure:i tried my best to follow the folder structure, but i also wanted to make it easier to understand, what the folders are and what they are for!. So i tried my best to make it look easier and optimized.
 
-In the project directory, you can run:
+3. Code Optimization: I embarked on the codebase to enhance cleanliness, simplicity, and efficiency. Due time constraints limited I haven't done it completely.
 
-### `npm start`
+--------- Unused Dependencies ---------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Exclusion of react-helmet-async: This dependency was omitted due to encountered issues, which hindered proper rendering and resulted in internal browser errors.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Elimination of react-simplebar: I opted to remove react-simplebar (SimplebarReactClient) as its inclusion posed challenges in positioning the "upgrade to plan" card within Navbar.js and impeded smooth scrolling functionality.
 
-### `npm test`
+--- Additional Notes ---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Routing Approach: As per instructions, I utilized <a> tags instead of a router implementation.
 
-### `npm run build`
+2. Location Handling: In lieu of useLocation, I utilized "window.location.href;" to retrieve current URL information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Incomplete Elements: Due to time constraints, certain aspects such as the removal of scrollbar and addition of hover effects to Sidebar/Navbar, and other things are not done.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Background color: Efforts were made to replicate the background color of the TopBar.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In summary, I strived to meticulously complete the assignment while aiming for perfection within the given constraints. Despite not achieving 100% completion, the project reflects a diligent effort to meet the objectives outlined.

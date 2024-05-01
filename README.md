@@ -1,3 +1,6 @@
+Note: HostLink as been provided please check: Hostlink.md or click below
+Local Host Link:
+
 --------- Steps Taken to Complete the Task ---------
 
 1. Understanding Structure: Initially, I meticulously reviewed all components and files to understand the structure comprehensively. With that, I initiated a new React app named "Dashboard" and imported all essential components and files. Despite some CSS files being obscured or removed, I endeavored to replicate the design as closely as possible as provided in the PNG file.
